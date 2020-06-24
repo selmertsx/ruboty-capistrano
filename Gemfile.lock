@@ -7,23 +7,25 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (5.0.0)
+    activesupport (6.0.3.2)
       concurrent-ruby (~> 1.0, >= 1.0.2)
-      i18n (~> 0.7)
+      i18n (>= 0.7, < 2)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
+      zeitwerk (~> 2.2, >= 2.2.2)
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
     coderay (1.1.1)
-    concurrent-ruby (1.0.2)
+    concurrent-ruby (1.1.6)
     diff-lcs (1.2.5)
     dotenv (2.1.1)
     faraday (0.15.2)
       multipart-post (>= 1.2, < 3)
-    i18n (0.7.0)
+    i18n (1.8.3)
+      concurrent-ruby (~> 1.0)
     mem (0.1.5)
     method_source (0.8.2)
-    minitest (5.9.0)
+    minitest (5.14.1)
     multipart-post (2.0.0)
     octokit (4.9.0)
       sawyer (~> 0.8.0, >= 0.5.3)
@@ -56,9 +58,10 @@ GEM
       addressable (>= 2.3.5, < 2.6)
       faraday (~> 0.8, < 1.0)
     slop (3.6.0)
-    thread_safe (0.3.5)
-    tzinfo (1.2.2)
+    thread_safe (0.3.6)
+    tzinfo (1.2.7)
       thread_safe (~> 0.1)
+    zeitwerk (2.3.0)
 
 PLATFORMS
   ruby
